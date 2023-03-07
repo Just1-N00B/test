@@ -1,3 +1,4 @@
+function start() {
 // Create textbox
 const input = document.createElement("input");
 input.type = "text";
@@ -52,3 +53,4 @@ document.addEventListener("keydown", function(event) {
     document.getElementById("barcodeInput").value = "";
   }
 });
+};
